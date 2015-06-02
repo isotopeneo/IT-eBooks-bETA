@@ -1,0 +1,11 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="itEbooksBetaCustomTheme.itEbooksBetaActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/it_ebooks_beta_green</item>
+    </style>
+    
+    <style name="itEbooksBetaCustomTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/itEbooksBetaCustomTheme.itEbooksBetaActionBarStyle</item>
+    </style>
+
+</resources>
